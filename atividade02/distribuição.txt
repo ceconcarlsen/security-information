@@ -1,0 +1,12 @@
+Distribuição de chaves públicas através de CERTIFICADOS DIGITAIS
+
+Imagine que você quer enviar uma mensagem criptografada para um amigo, mas você precisa garantir que apenas ele possa ler essa mensagem. Para isso, você precisa compartilhar sua chave pública com ele.
+Uma forma de fazer isso é usando um certificado digital. Um certificado digital é como um documento eletrônico que contém sua chave pública e algumas informações sobre você, como seu nome e outras identificações. 
+Ele é emitido por uma entidade confiável chamada Autoridade Certificadora.
+Você pode obter um certificado digital de uma Autoridade Certificadora confiável. 
+Essas Autoridades Certificadoras são organizações que têm a responsabilidade de verificar sua identidade e garantir que sua chave pública esteja associada a você de forma segura.
+Uma vez que você tenha seu certificado digital, você pode enviá-lo para seu amigo. 
+Ele pode verificar a autenticidade do certificado, confirmando a assinatura digital presente nele. 
+A assinatura digital é uma forma de garantir que o certificado não tenha sido alterado e que seja realmente emitido pela Autoridade Certificadora.
+Após a verificação, seu amigo terá acesso à sua chave pública contida no certificado digital. Ele pode usar essa chave pública para criptografar a mensagem que deseja enviar para você. A mensagem criptografada só poderá ser descriptografada corretamente usando sua chave privada correspondente, que é mantida em segredo por você.
+Dessa forma, através do certificado digital, você pode distribuir sua chave pública de forma confiável e garantir a comunicação segura entre você e seu amigo.
